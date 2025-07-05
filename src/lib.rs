@@ -10,7 +10,7 @@ mod generated;
 /// # Examples
 ///
 /// ```
-/// use comment_line::comment;
+/// use commented::comment;
 ///
 /// assert_eq!(comment("hello, world!", "index.html"), "<!-- hello, world! -->");
 /// assert_eq!(comment("hello, world!", "main.rs"), "/* hello, world! */");

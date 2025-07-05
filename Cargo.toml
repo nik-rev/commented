@@ -1,5 +1,5 @@
 [package]
-name = "comment_line"
+name = "commented"
 description = "If you want to comment a line for an unknown file type, this crate is what you want"
 version = "0.1.0"
 edition = "2024"
