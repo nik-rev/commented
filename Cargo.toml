@@ -9,11 +9,15 @@ license = "MIT OR Apache-2.0"
 keywords = []
 categories = []
 
+[features]
+glob = ["dep:globset"]
+
 [workspace]
 members = [".", "script"]
 default-members = ["."]
 
 [dependencies]
+globset = { version = "0.4.16", optional = true }
 
 # ============================
 # 
