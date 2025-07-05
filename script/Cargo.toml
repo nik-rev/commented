@@ -1,0 +1,11 @@
+lints.workspace = true
+
+[package]
+name = "script"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serde = "1.0.219"
+toml = "0.8.23"
+ureq = "3.0.12"

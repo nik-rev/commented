@@ -1,6 +1,6 @@
 [package]
-name = "project"
-description = "description"
+name = "comment_line"
+description = "If you want to comment a line for an unknown file type, this crate is what you want"
 version = "0.1.0"
 edition = "2024"
 authors = ["Nik Revenco <pm@nikrev.com>"]
@@ -8,6 +8,10 @@ repository = "https://github.com/"
 license = "MIT OR Apache-2.0"
 keywords = []
 categories = []
+
+[workspace]
+members = [".", "script"]
+default-members = ["."]
 
 [dependencies]
 
@@ -23,7 +27,7 @@ categories = []
 # 
 # ============================
 
-[lints.rust]
+[workspace.lints.rust]
 # do not import if its already in scope
 # e.g. `use std::option::Option::None`
 redundant_imports = "warn"
@@ -40,7 +44,7 @@ missing_copy_implementations = "warn"
 # all types must `#[derive(Debug)]`
 missing_debug_implementations = "warn"
 
-[lints.clippy]
+[workspace.lints.clippy]
 pedantic = { priority = -1, level = "warn" }
 
 # --- more consistent ways of writing code
