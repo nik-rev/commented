@@ -1,5 +1,7 @@
 //! This crate contains the [`comment`] function, which turns the passed input
 //! into a comment for the given file type
+//!
+//! Enabling the `glob` feature will improve accuracy of the comment heuristics.
 
 use std::path::Path;
 
