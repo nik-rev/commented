@@ -29,11 +29,6 @@
       {
         devShells.default = pkgs.mkShell {
           inherit nativeBuildInputs;
-          # This is needed or rust-analyzer will not work correctly.
-          # Source: https://discourse.nixos.org/t/rust-src-not-found-and-other-misadventures-of-developing-rust-on-nixos/11570
-          RUST_SRC_PATH = "${
-            pkgs.rust-bin.stable.latest.default.override { extensions = [ "rust-src" ]; }
-          }/lib/rustlib/src/rust/library";
         };
       }
     );
