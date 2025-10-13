@@ -23,10 +23,6 @@
 //! // files without an extension
 //! assert_eq!(comment("hello, world!", "123456789"), "# hello, world!");
 //! ```
-//!
-//! # Features
-//!
-//! Enabling the `glob` feature will *slightly* improve accuracy of the comment heuristics.
 
 use std::path::Path;
 
