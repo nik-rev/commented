@@ -1,9 +1,9 @@
 [package]
 name = "commented"
 version = "0.1.1"
-edition = "2021"
+edition = "2024"
 description = "If you want to comment a line for an unknown file type, this crate is what you want"
-rust-version = "1.56"
+rust-version = "1.85"
 authors = ["Nik Revenco <pm@nikrev.com>"]
 repository = "https://github.com/nik-rev/commented"
 keywords = ["comment", "no_std", "parser", "regex", "algorithm"]

@@ -1,3 +1,9 @@
+//! [![crates.io](https://img.shields.io/crates/v/commented?style=flat-square&logo=rust)](https://crates.io/crates/commented)
+//! [![docs.rs](https://img.shields.io/badge/docs.rs-commented-blue?style=flat-square&logo=docs.rs)](https://docs.rs/commented)
+//! ![license](https://img.shields.io/badge/license-Apache--2.0_OR_MIT-blue?style=flat-square)
+//! ![msrv](https://img.shields.io/badge/msrv-1.85-blue?style=flat-square&logo=rust)
+//! [![github](https://img.shields.io/github/stars/nik-rev/commented)](https://github.com/nik-rev/commented)
+//!
 //! This crate contains the [`comment`](comment) function, which turns the passed input
 //! into a comment for the given file type
 //!
