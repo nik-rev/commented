@@ -1,4 +1,4 @@
-//! This crate contains the [`comment`] function, which turns the passed input
+//! This crate contains the [`comment`](comment) function, which turns the passed input
 //! into a comment for the given file type
 //!
 //! ```toml

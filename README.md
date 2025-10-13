@@ -1,16 +1,15 @@
-This crate contains the `comment` function, which turns the passed input
-into a comment for the given file type
+# `commented`
 
 <!-- cargo-rdme start -->
 
-This crate contains the [`comment`] function, which turns the passed input
+This crate contains the [`comment`](https://docs.rs/commented/latest/commented/fn.comment.html) function, which turns the passed input
 into a comment for the given file type
 
 ```toml
 commented = "0.1.0"
 ```
 
-# Usage
+## Usage
 
 ```rust
 use commented::comment;
@@ -23,7 +22,7 @@ assert_eq!(comment("hello, world!", "script.lua"), "--[[ hello, world! --]]");
 assert_eq!(comment("hello, world!", "123456789"), "# hello, world!");//!
 ```
 
-# Features
+## Features
 
 Enabling the `glob` feature will *slightly* improve accuracy of the comment heuristics.
 
