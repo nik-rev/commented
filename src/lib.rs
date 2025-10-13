@@ -8,7 +8,7 @@
 //! into a comment for the given file type
 //!
 //! ```toml
-//! commented = "0.1.0"
+//! commented = "0.2.0"
 //! ```
 //!
 //! # Usage
