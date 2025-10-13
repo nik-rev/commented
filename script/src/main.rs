@@ -8,20 +8,10 @@ use std::{error::Error, fs, path::Path};
 use helix_languages_toml::FileType;
 use itertools::Itertools as _;
 use quote::quote;
-use serde::{Deserialize, Serialize};
 use tap::Pipe as _;
 
 /// File to fetch
 const FILE: &str = "https://raw.githubusercontent.com/helix-editor/helix/479c3b55847eae060b69e6f0eda0bd95d93a7fa0/languages.toml";
-
-/// A single language
-#[derive(Serialize, Deserialize)]
-struct HelixLanguage {}
-
-#[allow(warnings)]
-fn z<P: AsRef<Path>>(x: P) {
-    let a: &Path = x.as_ref();
-}
 
 #[allow(
     clippy::print_stdout,
