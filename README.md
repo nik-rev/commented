@@ -25,7 +25,7 @@ assert_eq!(comment("hello, world!", "main.rs"), "/* hello, world! */");
 assert_eq!(comment("hello, world!", "script.lua"), "--[[ hello, world! --]]");
 // fallback to `#`, as that's the most common comment tokens for
 // files without an extension
-assert_eq!(comment("hello, world!", "123456789"), "# hello, world!");//!
+assert_eq!(comment("hello, world!", "123456789"), "# hello, world!");
 ```
 
 ## Features
