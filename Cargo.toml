@@ -1,6 +1,6 @@
 [package]
 name = "commented"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2024"
 description = "If you want to comment a line for an unknown file type, this crate is what you want"
 rust-version = "1.85"
