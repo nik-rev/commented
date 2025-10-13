@@ -13,11 +13,6 @@ use tap::Pipe as _;
 /// File to fetch
 const FILE: &str = "https://raw.githubusercontent.com/helix-editor/helix/479c3b55847eae060b69e6f0eda0bd95d93a7fa0/languages.toml";
 
-#[allow(
-    clippy::print_stdout,
-    clippy::print_stderr,
-    reason = "print is allowed from `main`"
-)]
 fn main() -> Result<(), Box<dyn Error>> {
     let config = ureq::get(FILE)
         .call()?
